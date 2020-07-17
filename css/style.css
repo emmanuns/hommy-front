@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 8px 50px;
+    align-items: center;
+    background-color: #d4d4d4;
+}
+
+.header img {
+    width: 100px;
+}
+
+.navbar {
+    height: 10vh;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 15px;
+    ;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 50px;
+}
+
+.cor {
+    border: 2px solid white;
+}
+
+.part {
+  background-image: url(file:///C:/Users/Usuario/Downloads/four-colourful-houses-2501965.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-color: #d4d4d4;
+  background-blend-mode: overlay;
+  
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%; 
+}
+
+.botao {
+    margin-top: 6%;
+    color: black;
+}
+
+h1 {
+    color: #56CCF2;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color:black;
+}
+
+footer {
+    align-items: center;
+}
