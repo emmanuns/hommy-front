@@ -1,63 +1,58 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Comfortaa', cursive;
     box-sizing: border-box;
-    color: #ffffff;
+    position: relative;
 }
 
 a {
     text-decoration: none;
     opacity: 0.8;
+    color: var(--cor-primaria);
 }
 
 a:hover {
-    opacity: 1;
+    text-decoration: none;
+    color: var(--cor-secundaria);
 }
 
-.header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 8px 50px;
-    align-items: center;
-    background-color: #d4d4d4;
-}
+:root {
+    --cor-primaria: #141414;
+    --cor-secundaria: #18a9da;
+    --cor-terciaria: #F7F5EC;
+  }
 
-.header img {
-    width: 100px;
+.logo {
+    height: auto;
+    width: 5%;
 }
 
 .navbar {
-    height: 10vh;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #d4d4d4;
 }
 
 .navbar ul {
     display: flex;
+    flex-flow: row;
     list-style: none;
 }
 
 .navbar li {
-    padding: 15px;
-    ;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color:black;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 0 50px;
-}
-
-.cor {
-    border: 2px solid white;
+    padding: 8px;
+    line-height: 2.2rem;
+    font-weight: bold;   
 }
 
 .part {
-  background-image: url(file:///C:/Users/Usuario/Downloads/four-colourful-houses-2501965.jpg);
+  background-image: url(file:///C:/Users/Usuario/Desktop/TT/projeto/casinhas.jpg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 95vh;
   background-color: #d4d4d4;
   background-blend-mode: overlay;
   
@@ -70,23 +65,130 @@ a:hover {
     padding-top: 20%; 
 }
 
+.slogan button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-top: 5%;
+}
+
 .botao {
-    margin-top: 6%;
+    margin-top: 20%;
     color: black;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 30px;
+    background-color: transparent;
 }
 
 h1 {
-    color: #56CCF2;
+    color: #18a9da;
+    font-size: 38px;
 }
 
-h2 {
+.principal h2 {
+    color: #18a9da;
+    font-size: 30px;
+}
+
+.conectar h2 {
+    color: #18a9da;
+    font-size: 30px;
+}
+
+.anunciar h2 {
+    color: #18a9da;
+    font-size: 30px;
+}
+
+.principal h3 {
     color: black;
+    font-size: 15px;
 }
 
-h3 {
-    color:black;
+.conectar h3 {
+    color: black;
+    font-size: 15px;
 }
 
-footer {
+.anunciar h3 {
+    color: black;
+    font-size: 15px;
+}
+
+.ba {
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    border: 2px solid black;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.principal {
+    display: flex;
     align-items: center;
+    padding: 1%;
+    justify-content: space-between;
 }
+
+.conectar {
+    display: flex;
+    align-items: center;
+    background-color: #e1f2ec;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.anunciar {
+   display: flex;
+   align-items: center;
+   padding: 1%;
+   justify-content: space-between;
+}
+
+.baixo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+}
+
+.icons i {
+    margin-right: 10px;
+    font-size: 2em;
+}
+
+.cima {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12%;
+    padding-top: 2%;
+}
+
+.footer {
+    background-color: #d4d4d4;
+}
+
+.footer .copy {
+    font-size: 0.6em;
+}
+.footer .titulo {
+    font-size: 1.1em;
+}
+
+.footer .link {
+    font-size: 0.9em;
+}
+
