@@ -50,7 +50,7 @@ a:hover {
 }
 
 .part {
-  background-image: url(/assets/casinhas.jpg);
+  background-image: url(../assets/casinhas.jpg);
   background-size: cover;
   min-height: 95vh;
   background-color: #d4d4d4;
